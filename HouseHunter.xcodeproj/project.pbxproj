@@ -15,7 +15,7 @@
 		5166BAEC276EB6BB00387F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5166BAEA276EB6BB00387F3B /* LaunchScreen.storyboard */; };
 		5166BAFB276EB9D800387F3B /* NSMutableString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BAFA276EB9D800387F3B /* NSMutableString+Extension.swift */; };
 		5166BAFE276EBA2E00387F3B /* HouseInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BAFD276EBA2E00387F3B /* HouseInfoItem.swift */; };
-		528DAA28285434EB002BFAB5 /* HouseOverviewInfoCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DAA27285434EB002BFAB5 /* HouseOverviewInfoCell2.swift */; };
+		528DAA28285434EB002BFAB5 /* HouseOverviewInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DAA27285434EB002BFAB5 /* HouseOverviewInfoCell.swift */; };
 		528DAA2E28548CC1002BFAB5 /* HouseOverviewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DAA2D28548CC1002BFAB5 /* HouseOverviewInfo.swift */; };
 		528DAA30285490AF002BFAB5 /* HouseDetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DAA2F285490AF002BFAB5 /* HouseDetailViewController2.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 		5166BAED276EB6BB00387F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5166BAFA276EB9D800387F3B /* NSMutableString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableString+Extension.swift"; sourceTree = "<group>"; };
 		5166BAFD276EBA2E00387F3B /* HouseInfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfoItem.swift; sourceTree = "<group>"; };
-		528DAA27285434EB002BFAB5 /* HouseOverviewInfoCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOverviewInfoCell2.swift; sourceTree = "<group>"; };
+		528DAA27285434EB002BFAB5 /* HouseOverviewInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOverviewInfoCell.swift; sourceTree = "<group>"; };
 		528DAA2D28548CC1002BFAB5 /* HouseOverviewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOverviewInfo.swift; sourceTree = "<group>"; };
 		528DAA2F285490AF002BFAB5 /* HouseDetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,7 +100,7 @@
 		5166BAF5276EB74000387F3B /* HouseOverviewInfo */ = {
 			isa = PBXGroup;
 			children = (
-				528DAA27285434EB002BFAB5 /* HouseOverviewInfoCell2.swift */,
+				528DAA27285434EB002BFAB5 /* HouseOverviewInfoCell.swift */,
 				528DAA2D28548CC1002BFAB5 /* HouseOverviewInfo.swift */,
 			);
 			path = HouseOverviewInfo;
@@ -200,7 +200,7 @@
 				5166BAE2276EB6BA00387F3B /* SceneDelegate.swift in Sources */,
 				5166BAFE276EBA2E00387F3B /* HouseInfoItem.swift in Sources */,
 				528DAA30285490AF002BFAB5 /* HouseDetailViewController2.swift in Sources */,
-				528DAA28285434EB002BFAB5 /* HouseOverviewInfoCell2.swift in Sources */,
+				528DAA28285434EB002BFAB5 /* HouseOverviewInfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

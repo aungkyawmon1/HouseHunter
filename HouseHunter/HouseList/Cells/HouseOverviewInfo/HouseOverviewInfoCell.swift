@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HouseOverviewInfo2Cell: UITableViewCell {
+class HouseOverviewInfoCell: UITableViewCell {
 
     
   

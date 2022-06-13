@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HouseDetailViewController2: UIViewController {
+class HouseDetailViewController: UIViewController {
 
     lazy private var currentHouseInfo : HouseOverviewInfo = {
         let ui = HouseOverviewInfo()

@@ -22,7 +22,7 @@ class HouseListViewController: UITableViewController {
    
     func setupTableView() {
         tableView.separatorStyle = .none
-        tableView.register(HouseOverviewInfo2Cell.self, forCellReuseIdentifier: String(describing: HouseOverviewInfo2Cell.self))
+        tableView.register(HouseOverviewInfoCell.self, forCellReuseIdentifier: String(describing: HouseOverviewInfoCell.self))
     }
     
     
@@ -40,7 +40,7 @@ extension HouseListViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: HouseOverviewInfo2Cell.self), for: indexPath) as? HouseOverviewInfo2Cell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: HouseOverviewInfoCell.self), for: indexPath) as? HouseOverviewInfoCell else {
             return UITableViewCell()
         }
         
@@ -54,7 +54,7 @@ extension HouseListViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = HouseDetailViewController2()
+        let vc = HouseDetailViewController()
         vc.comparingHouseInfoData = .getDummyHousingInfo()
         vc.currentHouseInfoData = .getDummyCurrentHousingInfo()
         self.navigationController?.pushViewController(vc, animated: true)
